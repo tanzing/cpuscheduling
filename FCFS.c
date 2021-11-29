@@ -27,12 +27,12 @@ int main()
     }
 
 
-    printf("Waiting Time\t\tTurnAroundTime\n\n");
+    printf("Processes\t\tWaiting Time\t\tTurnAroundTime\n\n");
     
 
     for(int i=0;i<n;i++)
     {
-        printf("%d\t\t\t%d\n",wait[i],turn[i]);
+        printf("P%d\t\t\t%d\t\t\t%d\n",i+1,wait[i],turn[i]);
     } 
 
  
